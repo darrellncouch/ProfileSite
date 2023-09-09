@@ -7,6 +7,29 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   overflow-y: auto;
+  background-color: $background;
+
+  &--start {
+    width: 100svw;
+    height: calc(100svh - $topbarHeight);
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    overflow-y: auto;
+    background-color: $background;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .page--start {
+      justify-content: center;
+      padding: 0;
+
+      height: calc(90svh - $topbarHeight);
+    }
 }

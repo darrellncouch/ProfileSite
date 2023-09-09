@@ -14,8 +14,7 @@ export class AppComponent {
   public navigationItems: Array<NavigationItem> = [
     { id: NavItem.About, title: "About", link: ""},
     { id: NavItem.Skills, title: "Skills", link: "skills"},
-    { id: NavItem.Experience, title: "Experience", link: "experience"},
-    { id: NavItem.Contact, title: "Contact", link: "contact"}
+    { id: NavItem.Experience, title: "Experience", link: "experience"}
 
   ]
 

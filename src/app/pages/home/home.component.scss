@@ -1,0 +1,36 @@
+@import "../../../sass/main.scss";
+
+.info {
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  &-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  &-email {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+.bio {
+  flex-basis: 95%;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .info {
+    text-align: center;
+    flex-basis: 100%;
+
+  }
+
+  .bio {
+    flex-basis: 95%;
+    margin-left: 0;
+  }
+}
