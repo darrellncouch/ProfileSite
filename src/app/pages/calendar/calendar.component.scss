@@ -14,3 +14,10 @@
   width: 60svw;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 900px) {
+  .calendly {
+    width: 95%;
+    height: 100%;
+  }
+}
